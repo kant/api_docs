@@ -130,7 +130,7 @@ _[Petitions](petitions.md)_.
             <td><code>fields</code></td>
             <td><code>string</code> of comma-separated field names</td>
             <td>
-                (Optional) The fields of the petition data objects that will be
+                <em>(Optional)</em> The fields of the petition data objects that will be
                 returned for each petition in the response. The parameter should include the
                 field names (described in
                 <code>GET petitions/:petition_id</code>), separated
@@ -144,7 +144,7 @@ _[Petitions](petitions.md)_.
             <td><code>page_size</code></td>
             <td><code>int</code></td>
             <td>
-                (Optional) The maximum number of petition data objects to return
+                <em>(Optional)</em> The maximum number of petition data objects to return
                 per request, no more than 500. If omitted, returns the maximum number of
                 petitions.
             </td>
@@ -153,7 +153,7 @@ _[Petitions](petitions.md)_.
             <td><code>page</code></td>
             <td><code>int</code></td>
             <td>
-                (Optional) The page offset by <code>page_size</code> petitions.
+                <em>(Optional)</em> The page offset by <code>page_size</code> petitions.
                 If omitted, returns the first page by default.
             </td>
         </tr>
@@ -262,7 +262,7 @@ _[Petitions](petitions.md)_.
             <td><code>fields</code></td>
             <td><code>string</code> of comma-separated field names</td>
             <td>
-                (Optional) The fields of the petition data objects that will be
+                <em>(Optional)</em> The fields of the petition data objects that will be
                 returned for each petition in the response. The parameter should include the
                 field names (described in
                 <code>GET petitions/:petition_id</code>), separated
@@ -276,7 +276,7 @@ _[Petitions](petitions.md)_.
             <td><code>page_size</code></td>
             <td><code>int</code></td>
             <td>
-                (Optional) The maximum number of petition data objects to return
+                <em>(Optional)</em> The maximum number of petition data objects to return
                 per request, no more than 500. If omitted, returns the maximum number of
                 petitions.
             </td>
@@ -285,7 +285,7 @@ _[Petitions](petitions.md)_.
             <td><code>page</code></td>
             <td><code>int</code></td>
             <td>
-                (Optional) The page offset by <code>page_size</code> petitions.
+                <em>(Optional)</em> The page offset by <code>page_size</code> petitions.
                 If omitted, returns the first page by default.
             </td>
         </tr>
